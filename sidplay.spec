@@ -8,14 +8,15 @@ Group:		X11/Applications
 Source0:	http://www.geocities.com/SiliconValley/Lakes/5147/sidplay/packages/%{name}-base-%{version}.tgz
 # Source0-md5:	633506d1225ce9713106fc8d851b0750
 URL:		http://www.geocities.com/SiliconValley/Lakes/5147/sidplay/linux.html
+BuildRequires:	autoconf
 BuildRequires:	libsidplay-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Spartanic console sid-music player
+Spartanic console sid-music player.
 
 %description -l pl
-Spartañski odtwarzacz muzyki sid dla konsoli
+Spartañski odtwarzacz muzyki sid dla konsoli.
 
 %prep
 %setup -q -n %{name}-base-%{version}
