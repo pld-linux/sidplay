@@ -1,5 +1,5 @@
 Summary:	Spartanic console sid-music player
-Summary(pl.UTF-8):   Spartański odtwarzacz muzyki sid dla konsoli
+Summary(pl.UTF-8):	Spartański odtwarzacz muzyki sid dla konsoli
 Name:		sidplay
 Version:	1.0.9
 Release:	1
